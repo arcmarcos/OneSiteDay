@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+}
+
+.container-form {
+    width: 85%;
+    max-width: 600px;
+    background:#2eb1a6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow:3px 3px 5px #585858b3;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-form h1 {
+    margin-top: 0;
+    font-weight: 200;
+    color: rgb(245, 245, 245);
+}
+
+.container-form input {
+    margin: .4em;
+    width: 15em;
+    height: 2.5em;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+    background: #0000002f;
+    color: rgb(223, 223, 223);
+}
+
+.input ::placeholder {
+    color: rgb(223, 223, 223);
+}
+
+.message {
+    border-radius: 5px;
+    border: none;
+    margin-top: 35px;
+}
+
+.message textarea {
+    background: #0000002f;
+    border: none;
+    border-radius: 5px;
+    color: rgb(223, 223, 223);
+}
+
+.message ::placeholder {
+    padding: 5px;
+    color: rgb(223, 223, 223);
+}
+
+.submit-bt {
+    width: 10em;
+    height: 2.5em;
+    margin-top: 50px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid rgb(223, 223, 223);
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: rgb(223, 223, 223);
+}
+
+.submit-bt:hover {
+    background: rgba(78, 78, 78, 0.3);
+    transition-duration: .3s;
+}
