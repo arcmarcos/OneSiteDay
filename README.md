@@ -10,3 +10,4 @@ O projeto se chama OneSiteDay e como o nome mesmo diz, o objetivo é criar um si
  4. [Borknagar](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/4.Borknagar) | :musical_note: - feeling: Musical :guitar:
  5. [Projeto 02](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/5.projeto2) | :alien: - feeling: Cool :tophat:
  6. [Formulario](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/6.formulario) | :green_apple: - feeling: Nice :blush:
+ 7. [Calculadora](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/7.calculadora) | :1234: - feeling: Ahh :eyes:
