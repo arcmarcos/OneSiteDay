@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Cool Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>A Cool Calculator</h1>
+
+    <form class="calculator-container" name="calculator">
+        <input class="value" type="text" name="text" readonly="" placeholder="Hi =D">
+        <span class="clear" onclick="document.calculator.text.value =''">C</span>
+        <span class="number" onclick="document.calculator.text.value +='/'">/</span>
+        <span class="number" onclick="document.calculator.text.value +='*'">*</span>
+        <span class="number" onclick="document.calculator.text.value +='7'">7</span>
+        <span class="number" onclick="document.calculator.text.value +='8'">8</span>
+        <span class="number" onclick="document.calculator.text.value +='9'">9</span>
+        <span class="number" onclick="document.calculator.text.value +='-'">-</span>
+        <span class="number" onclick="document.calculator.text.value +='4'">4</span>
+        <span class="number" onclick="document.calculator.text.value +='5'">5</span>
+        <span class="number" onclick="document.calculator.text.value +='6'">6</span>
+        <span class="plus" onclick="document.calculator.text.value +='+'">+</span>
+        <span class="number" onclick="document.calculator.text.value +='1'">1</span>
+        <span class="number" onclick="document.calculator.text.value +='2'">2</span>
+        <span class="number" onclick="document.calculator.text.value +='3'">3</span>
+        <span class="number" onclick="document.calculator.text.value +='0'">0</span>
+        <span class="number" onclick="document.calculator.text.value +='.'">.</span>
+        <span class="equal" onclick="document.calculator.text.value = eval(calculator.text.value)">=</span>
+    </form>
+
+</body>
+
+</html>
