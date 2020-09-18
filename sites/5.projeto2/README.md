@@ -1,5 +1,7 @@
 ## Projeto 0.2
 ### Este é o meu 5º site!
 Esse foi feito com base no segundo projeto do curso serfrontend. Modifiquei toda a parte de conteúdo do projeto e algumas coisas de layout.
+Ah! E não menos importante, aqui as referencias vão para o fucking Arcturus!
+Conheçam a Chapelaria Arcturiana!
 <br>
-![Screenshot](https://lh3.googleusercontent.com/C0q1F5CzD8bYZVa1Z5fibjJzerjXVPIMPKb_xO2G8fo1Bt5UqiBc50cDcRAWmsnutZylVcOLhx69PvmLB8YPomtGG275Q-aWTXTxiFAN6w1xHrtgkUadsyU5cwMwWs5koa8IS_0tnSCJWVD5KX672Z5N6BWVJFJc5LfGOp_elC2KWzpFXY47CGEDbL4YzbgDw3s59aGAEoeg-iAOHPnvRtjUS0IKUAxeGh7LkDu50o0R8wY8hpOdvohAmbrvt_6atoBm8MbWEvR2zPNloMV5-MbCRpnjBXzub9SLnjYydfvoFR5lcj1u5kyV9fTFp6Mhn1zwVCppu--NoFtYgKnZq-XZd_YJgg14-hktNYOfO9EkRLLlI_k7kh7FavcwiUvUvOjFUfDQKL24YEeUodr4zoLfne4jVdpM37ZHazpclDYb7CQuo3uKqbbnZfkJYVnMA4t8M0avsczoNTyoZFbXRn3zyBeaR-n-s7KpVNc8--4H0jNx5dE4h8IwUI3Ah3JIB4t-7cL-VJYBXeCnfd9E6lTcN8wWdrmp7AsIu8zvrYn87J5qhsIsZMHgvNPwc2JrlBiYO_Nu--GWPmTV5oh_U7WhfZ0MSayyAwSsWOf8z4nP67XEvH9wqCLC8OKFNW3syla6FlV_OLWqp4-7XJsSdC8PmR4J1W1_6qIr2QRf0yqLDvBeJbtMgMHGLnboxw=w380-h955-no?authuser=0)
+![Screenshot](https://i.imgur.com/LSyMdZq.png)
