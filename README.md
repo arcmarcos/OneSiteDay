@@ -12,3 +12,4 @@ O projeto se chama OneSiteDay e como o nome mesmo diz, o objetivo é criar um si
  6. [Formulario](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/6.formulario) | :green_apple: - feeling: Nice :blush:
  7. [Calculadora](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/7.calculadora) | :1234: - feeling: Ahh :eyes:
   8. [SuperMenu](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/8.menu) | :dash: - feeling: Tá fluindo :running:
+   8. [Animated Buttons](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/9.AnimatedButtons) | :thumbsup: - feeling: ThumbsUp :seedling:
