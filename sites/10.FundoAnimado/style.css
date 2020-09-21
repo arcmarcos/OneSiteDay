@@ -1,0 +1,44 @@
+@import "https://fonts.googleapis.com/css?family=Quicksand";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand;
+    box-sizing: border-box;
+}
+
+div {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(30deg, #246655, #244066, #a736a2, #d0814b);
+    background-size: 800% 800%;
+    position: relative;
+    animation: bg 15s ease-in-out infinite;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: 200;
+    border: 1px solid white;
+    border-radius: 1em;
+    display: inline;
+    padding: 1rem 1rem;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes bg {
+    0% {
+        background-position:0 50% ;
+    }
+    50% {
+        background-position:100% 50% ;
+    }
+    100% {
+        background-position:0 50% ;
+    }
+}
