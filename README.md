@@ -4,12 +4,13 @@
 O projeto se chama OneSiteDay e como o nome mesmo diz, o objetivo é criar um site por dia, tempo indeterminado. Fazendo isso eu espero evoluir nos estudos, praticar continuamente e quem sabe poder inspirar outras pessoas também.
 
 
- 1. [First](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/1.first) | :sunglasses: - feeling: Hacker  :satisfied:|
- 2. [Currículo 0.1](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/2.curriculo) | :neckbeard: - feeling: Vamos! :yum:
- 3. [Projeto 01](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/3.projeto1) | :heart_eyes: - feeling: Uau! :smirk:
- 4. [Borknagar](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/4.Borknagar) | :musical_note: - feeling: Musical :guitar:
- 5. [Projeto 02](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/5.projeto2) | :alien: - feeling: Cool :tophat:
- 6. [Formulario](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/6.formulario) | :green_apple: - feeling: Nice :blush:
- 7. [Calculadora](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/7.calculadora) | :1234: - feeling: Ahh :eyes:
-  8. [SuperMenu](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/8.menu) | :dash: - feeling: Tá fluindo :running:
-   8. [Animated Buttons](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/9.AnimatedButtons) | :thumbsup: - feeling: ThumbsUp :seedling:
+1. [First](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/1.first)
+2. [Currículo 0.1](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/2.curriculo)
+3. [Projeto 01](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/3.projeto1)
+4. [Borknagar](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/4.Borknagar)
+5. [Projeto 02](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/5.projeto2)
+6. [Formulario](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/6.formulario)
+7. [Calculadora](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/7.calculadora)
+8. [SuperMenu](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/8.menu)
+9. [Botões Animados](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/9.AnimatedButtons)
+10. [Fundo Animado](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/10.FundoAnimado)
