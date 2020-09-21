@@ -1,4 +1,4 @@
-## Animated Background
+## Fundo Animado
 ### Este é o meu 10º site!
 Nesse, faço um fundo animado utilizando gradiente com 4 cores e o @keyframes para animar o movimento das cores.
 
