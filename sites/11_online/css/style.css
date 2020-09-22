@@ -1,0 +1,123 @@
+body {
+    background: linear-gradient(-45deg, #5e5c5c, #444343, #333333, #292929);
+	background-size: 400% 400%;
+    animation: animated-gradient 15s ease-in-out infinite;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Fira Code';
+
+}
+
+main{
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -45%);
+    text-align: center;
+}
+
+.main-section {
+    padding: 15px;
+}
+
+.main-section h1 {
+    color: #c4c4c4;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.main-section p {
+    font-size: 1.3em;
+    color: #898888;
+}
+
+.main-section-about h3 {
+    margin-bottom: .6em;
+    color: #c4c4c4;
+    font-weight: normal;
+    font-size: 1.4em;
+}
+
+.about-me {
+    display: inline-block;
+    width: 65%;
+    border-radius: 5px;
+    background-color: #00000013;
+    box-sizing: border-box;
+    padding: .5em;
+}
+
+.about-me p {
+    color: #898888;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.main-section-about ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-section-about ul li {
+    list-style: none;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    padding: 35px 0 0 15px;
+}
+
+.main-section-about ul li i {
+    display: block;
+    font-size: 1.5em;
+}
+
+.main-section-about ul li a {
+    line-height: 30px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #c4c4c4;
+    text-decoration: none;
+    transition: .8s;
+}
+
+.main-section-about ul li a:hover {
+    color: seagreen;
+}
+
+.main-footer {
+    display: inline-block;
+    width: 70%;
+    border-top: 1px solid #898888;
+    margin: 5em 0 0 0;
+    padding-top: 1.5em;
+}
+
+.main-footer a {
+    text-decoration: none;
+    text-align: center;
+    color: #c4c4c4;
+    transition: .9s;
+    padding: 0 20px 0 20px;
+}
+
+.main-footer a:hover {
+    color: seagreen;
+    border-bottom: 1px solid seagreen;
+}
+
+
+@keyframes animated-gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
