@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Informações Gerais</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 98.3vh;
+            background: linear-gradient(#5779d6, #8d54bb);
+        }
+        div {
+            position: absolute;
+            top: 40px;
+            text-align: center;
+        }
+        div h1 {
+            color:palegreen;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+        div p {
+            color: white;
+            font-size: 16px;
+        }
+        div h2 {
+            padding-top: 10px;
+            letter-spacing: 3px;
+            color: deepskyblue;
+            text-transform: uppercase;
+        }
+        label {
+            letter-spacing: 2px;
+            color: white;
+        }
+        form {
+            position: absolute;
+            top: 400px;
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, .2);
+            border-radius: 5px;
+        }
+        input {
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            
+        }
+        .input-text {
+            width: 180px;
+        }
+        ::placeholder {
+            text-align: center;
+        }
+        .submit {
+            background-color: teal;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            width: 80px;
+            transition: .3s;
+        }
+        .clear {
+            transition: .3s;
+            background-color: indianred;
+        }
+        .submit:hover{
+            transition: .3s;
+            background:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <!-- Criar um código HTML com o nome formulario2.html Colocar o título na página Formulario 2; Na tag <body> colocar um título em negrito com a fonte na cor verde com o nome Informações Gerais; Na tag <body> inserir uma foto que faça referência ao negócio; Na tag <body> colocar um dois parágrafos com informação sobre a temática que irá tratar; Na tag <body> colocar um outro título em negrito com a fonte na cor azul com o nome Formulário de Escolha; Na tag <form> colocar as entradas de dados abaixo: Campo nome; Campo idade; Campo sexo: Masculino; Feminino; Outros. Colocar como default.  -->
+    <div>
+        <h1>Informações Gerais</h1>
+        <img src="info.png" alt="informações gerais" width="300px">
+        <p>Requerimento de informações para cadastro</p>
+        <p>Olá, seja bem vindo ao nosso site, preciso que você insira algumas informações para continuarmos, ok?</p>
+        <h2>Formulário de Escolha:</h2>
+    </div>
+
+
+    <form>
+        <label for="name">Nome completo:<br>
+            <input type="text" name="first-name" class="input-text" placeholder="Digite seu nome completo">
+        </label>
+        <br>
+        <br>
+        <label for="age">Idade<br>
+            <input type="number" name="age" class="input-text" placeholder="Sua idade">
+        </label>
+        <br>
+        <br>
+        <label for="genre">Gênero
+            <br>
+            <label for="male">
+                <input type="radio" name="genre" id="male">
+                Masculino
+            </label>
+            <label for="female">
+                <input type="radio" name="genre" id="female">
+                Feminino
+            </label>
+            <label for="others">
+                <input type="radio" name="genre" id="others" checked>
+                Outros
+            </label>
+        </label>
+        <br>
+        <br>
+        <!-- Adicionar ao exercício anterior a caixa de seleção múltipla conforme abaixo. Campo Interesse: Carro; Colocar como default. Moto; Barco Bicicleta.  -->
+        <label for="vehicle">Interesse: <br>
+            <label for="car">
+                <input type="checkbox" name="vehicle" id="car" checked>
+                Carro
+            </label>
+            <label for="moto">
+                <input type="checkbox" name="vehicle" id="moto">
+                Moto
+                </label>
+            <label for="interest">
+                <input type="checkbox" name="vehicle" id="boat">
+                Barco
+            </label>
+            <label for="interest">
+                <input type="checkbox" name="vehicle" id="bike">
+                Bicicleta
+            </label>
+        </label>
+        <br>
+        <br>
+        <input class="submit clear" type="reset" value="Limpar">
+        <input class="submit" type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>

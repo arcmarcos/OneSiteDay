@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário 1</title>
+    
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 98.3vh;
+            background: linear-gradient(#5779d6, #8d54bb);
+        }
+        h1 {
+            color: white;
+            position: absolute;
+            top: 80px;
+            font-weight: normal;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+        label {
+            letter-spacing: 2px;
+            color: white;
+        }
+        form {
+            position: absolute;
+            top: 180px;
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, .2);
+            border-radius: 5px;
+        }
+        form input, textarea {
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            resize: none;
+            outline: none;
+            
+        }
+        ::placeholder {
+            text-align: center;
+        }
+
+        select {
+            outline: none;
+            border: none;
+            font-size: 14px;
+        }
+        .submit {
+            background-color: teal;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            width: 80px;
+            transition: .3s;
+        }
+        .clear {
+            transition: .3s;
+            background-color: indianred;
+        }
+        .submit:hover{
+            transition: .3s;
+            background:blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Criar um código HTML com o nome formulario1.html Na tag <head> colocar o título na página Formulario 1; Na tag <head> colocar as informações já vistas da tag <meta>; Na tag <body> colocar um título em negrito com o nome Formulário de Inscrição; Na tag <form> colocar as entradas de dados abaixo: Campo nome; Campo sobrenome; Campo idade; Campo e-mail; Campo mensagem. -->
+        <h1>Formulário de inscrição</h1>
+        <form method="GET">
+            <label for="first-name">Primeiro nome:<br>
+                <input type="text" name="first-name" id="first-name" placeholder="Digite seu primeiro nome">
+            </label>
+            <br>
+            <label for="last-name">Sobrenome:<br>
+                <input type="text" name="last-name" id="last-name" placeholder="Digite seu sobrenome">
+            </label>
+            <br>
+            <label for="age">Idade<br>
+                <input type="number" name="age" id="age" placeholder="Sua idade">
+            </label>
+            <br>
+            <label for="email">E-mail:<br>
+                <input type="email" name="email" id="email" placeholder="Digite seu email">
+            </label>
+            <br>
+            <br>
+            <label for="genre">Gênero
+                <br>
+                <label for="male">
+                    <input type="radio" name="genre" id="male">
+                    Masculino
+                </label>
+                <label for="female">
+                    <input type="radio" name="genre" id="female">
+                    Feminino
+                </label>
+                <label for="others">
+                    <input type="radio" name="genre" id="others">
+                    Outros
+                </label>
+            </label>
+            <br>
+            <br>
+            <label for="select">
+                <select name="select" id="select">
+                    <option value="0">Selecione sua opção</option>
+                    <option value="1">HTML</option>
+                    <option value="2">CSS</option>
+                    <option value="3">JavaScript</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label for="message">Mensagem <br>
+                <textarea name="message" id="message" cols="40" rows="10" placeholder="Digite sua mensagem"></textarea>
+            </label>
+            <br>
+            <br>
+            <input class="submit clear" type="reset" value="Limpar">
+            <input class="submit" type="submit" value="Enviar">
+        </form>
+</body>
+</html>
