@@ -6,6 +6,6 @@ A inspiração aqui veio de alguns lugares distintos; primeiro e bem óbvio são
 
 Procurando saber mais sobre a música do Quorthon, descobri que a melodia dela é inteira da espetacular peça "Jupiter, the Bringer of Jollity". E é isso! Aqui tomei a liberdade de adicionar o nosso planeta, que Holst, não escreveu uma peça sobre. Outra curiosidade é que Holst, se inspirou na astrologia para compor e dar nome a obra!
 
-[Link do site](https://arcmarcos.netlify.app/sites/15_musica/index.html)
+[Link do site](https://arcmarcos.netlify.app/sites/16_planets/index.html)
 
 ![Screenshot](https://i.imgur.com/YL2KCLT.png)
