@@ -3,6 +3,8 @@
 
 O projeto se chama OneSiteDay e como o nome mesmo diz, o objetivo é criar um site por dia, tempo indeterminado. Fazendo isso eu espero evoluir nos estudos, praticar continuamente e quem sabe poder inspirar outras pessoas também.
 
+Todos os sites podem ser vistos
+[Aqui](https://arcmarcos.netlify.app/)
 
 1. [First](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/01_first)
 2. [Currículo 0.1](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/02_curriculo)
