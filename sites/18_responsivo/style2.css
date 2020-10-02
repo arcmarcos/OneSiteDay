@@ -14,22 +14,23 @@ header nav h2 {
     text-align: center;
     color: #eeffee;
     width: 100%;
-    margin: -50px auto;
-    font-size: 30px;
+    margin: -60px auto;
+    font-size: 3em;
     font-weight: normal;
-    letter-spacing: 2px;
+    letter-spacing: .3em;
+    text-transform: uppercase;
 }
 
 header label {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 6em;
     padding: 10px 20px;
     display: inline-block;
     border-right: 1px solid #4d4d4d;
     transition: .7s;
 }
 
-header label:hover {
+header label:active {
     cursor: pointer;
     color: #000;
     background-color: #ff5900;
@@ -51,7 +52,7 @@ header label:hover {
 .menu li a {
     display: block;
     padding: 15px 20px;
-    font-size: 20px;
+    font-size: 4em;
     color: #eeffee;
     text-decoration: none;
     transition: .7s;
@@ -71,6 +72,15 @@ header label:hover {
     margin: 50px auto;
     padding: 0 10px;
     color: #c2c2c2;
+}
+
+.mainContainer h1 {
+    font-size: 4em;
+}
+
+.mainContainer p {
+    font-size: 2em;
+    letter-spacing: .1em;
 }
 
 .mainContainer img {
