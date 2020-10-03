@@ -107,6 +107,13 @@ header label:active {
         display: none;
     }
 
+    header nav h2 {
+        margin: 0;
+        padding: 10px;
+        text-align: initial;
+        font-size: 25px;
+    }
+
     .menu ul {
         margin: 0;
         padding: 0;
