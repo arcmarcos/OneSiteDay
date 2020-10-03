@@ -108,6 +108,8 @@ header label:active {
     }
 
     header nav h2 {
+        width: 25%;
+        display: inline-block;
         margin: 0;
         padding: 10px;
         text-align: initial;
