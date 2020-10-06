@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111111;
+}
+
+.cardContainer {
+    border-radius: 10px;
+    position: relative;
+    width: 320px;
+    height: 420px;
+    background: #12362e;
+    overflow: hidden;
+}
+
+.cardContainer::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background: #5dc21e;
+    transform: skewY(345deg);
+    transition: .5s;
+}
+
+.cardContainer:hover::before {
+    top: -70%;
+    transform: skewY(390deg);
+}
+
+.cardContainer::after {
+    content: 'Xbox';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 8em;
+    color: #0000002c;
+}
+
+.cardContainer .imageBox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.cardContainer .imageBox img {
+    max-width: 100%;
+    transition: .5s;
+}
+
+.cardContainer:hover .imageBox img {
+    max-width: 50%;
+}
+
+.cardContainer .contentBox {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardContainer .contentBox h2 {
+    font-size: 22px;
+    color: #f1f1f1;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.cardContainer .contentBox .priceTag {
+    font-size: 20px;
+    color: #f1f1f1;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.contentBox .buttonBuy {
+    top: 200px;
+    opacity: 0;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #5dc21e;
+    box-shadow: 1px 1px 5px #3f3f3f;
+    color: #f1f1f1;
+    transition: .5s;
+}
+
+.contentBox .buttonBuy:hover {
+    background-color: #75d13c;
+
+}
+
+.cardContainer:hover .contentBox .buttonBuy {
+    top: 0;
+    opacity: 1;
+}

@@ -24,3 +24,4 @@ Todos os sites podem ser vistos
 16. [Planetas](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/16_planets)
 17. [Pomodoro](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/17_pomodoro)
 18. [Responsivo](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/18_responsivo)
+19. [Cartão Animado](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/19_cards)
