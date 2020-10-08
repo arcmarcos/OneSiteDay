@@ -1,9 +1,12 @@
+
 ## Olá!!
+
 ### Me chamo Marcos, e esse é o meu primeiro projeto! :smiley:
 
 O projeto se chama OneSiteDay e como o nome mesmo diz, o objetivo é criar um site por dia, tempo indeterminado. Fazendo isso eu espero evoluir nos estudos, praticar continuamente e quem sabe poder inspirar outras pessoas também.
-
+ 
 Todos os sites podem ser vistos
+
 [Aqui](https://arcmarcos.netlify.app/)
 
 1. [First](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/01_first)
@@ -25,3 +28,14 @@ Todos os sites podem ser vistos
 17. [Pomodoro](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/17_pomodoro)
 18. [Responsivo](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/18_responsivo)
 19. [Cartão Animado](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/19_cards)
+
+<hr>
+<br>
+
+> Projeto feito com ajuda de:
+> [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
+> [Origamid](https://www.youtube.com/channel/UCRe4a2l_hRvROUU02_0YCmQ)
+> [Coding Journey](https://www.youtube.com/channel/UCwpH4liYtBSiVXSfL8x2TyQ)
+> [DarkCode](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
+> [Dorly Neto](https://github.com/dorlyneto)
+> Google, StackOverflow, CodePen, W3Schools, MDN, vozes da minha cabeça, entre outros...
