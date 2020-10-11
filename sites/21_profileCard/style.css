@@ -19,6 +19,8 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    /* border: 3px solid #919191; */
+    box-shadow:1px 3px 10px #999999, -1px -3px 10px #999999;
 }
 
 .cardContainer::before {
@@ -27,21 +29,27 @@ body {
     top: -70%;
     width: 100%;
     height: 100%;
-    background-color: #4361ee;
+    background-color: #5ba5d6;
     transform: skewY(180deg);
     border-radius: 0 0 4em 4em;
 }
 
 .cardContainer img {
-    position: relative;
+    position: fixed;
     display: flex;
     width: 10em;
-    margin: .8em;
+    margin: .8em auto;
     border-radius: 50%;
+    transition: 1s;
+}
+
+.cardContainer img:hover {
+    width: 20em;
+    box-shadow: 1px 1px 50px black;
 }
 
 .nameTitle {
-    margin: 2em 0 .5em;
+    margin: 8em 0 .5em;
     font-size: 1.8em;
     text-transform: uppercase;
     font-weight: normal;
@@ -62,12 +70,24 @@ body {
     font-size: 1em;
 }
 
+.location a {
+    padding: 10px;
+    color: #000000;
+    transition: .5s;
+}
+
+.location a:hover {
+    background-color: #4361ee;
+    border-radius: 50%;
+    color: #b9b9b9;
+}
+
 .location i {
     font-size: 2em;
 }
 
 .cardContacts {
-    background-color: lightsalmon;
+    background-color: #4361ee;
     text-align: center;
     width: 18em;
     height: 3.5em;
@@ -83,18 +103,21 @@ body {
 }
 
 .emailBox {
-    transition: 1s;
+    transition: .5s;
 }
 
 .emailBox p{
+    background-color: #5ba5d6;
     font-size: 1.3em;
+    padding: 20px;
+    margin-top: -5px;
     text-transform: uppercase;
     letter-spacing: .1em;
 }
 
 .emailBox:hover {
-    transition: 1s;
-    margin-top: -7.3em;
+    transition: .5s;
+    margin-top: -8.9em;
 }
 
 .emailLink a {
@@ -117,7 +140,6 @@ body {
     text-align: center;
     width: 2em;
     padding: .2em 0;
-    border: 1px solid #0d1b2a;
     border-radius: 1em;
     transition: .5s;
 }
