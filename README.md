@@ -31,7 +31,7 @@ Todos os sites podem ser vistos
 20. [EletroDevStoreCSS](https://github.com/arcmarcos/RecodePro2020/tree/master/eletrodevstore_CSS)
 21. [Cartão de visitas](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/21_profileCard)
 22. [Box-Shadow](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/22_boxshadow)
-22. [Box-Shadow](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/23_background)
+22. [Background](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/23_background)
     
 <hr>
 <br>
