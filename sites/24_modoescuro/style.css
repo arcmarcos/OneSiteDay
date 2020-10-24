@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    transition: 1s;
+}
+
+.themeToggle {
+    transition: 1s;
+    background-color: #111111;
+}
+
+button {
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+button i {
+    font-size: 10rem;
+    transition: .5s;
+    padding: .5rem;
+}
+
+.fa-moon:hover {
+    transition: .5s;
+    color: #2b43cc;
+}
+
+.fa-sun {
+    color: #cfc96f;
+}
+
+.fa-sun:hover {
+    transition: .5s;
+    color: #92b2d6;
+}
