@@ -33,6 +33,8 @@ Todos os sites podem ser vistos
 22. [Box-Shadow](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/22_boxshadow)
 23. [Background](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/23_background)
 24. [Modo escuro](https://github.com/arcmarcos/OneSiteDay/tree/master/sites/24_modoescuro)
+25. [EletroDevStoreJS](https://github.com/arcmarcos/RecodePro2020/tree/master/eletrodevstore_JS)
+26. [Bootstrap](https://github.com/arcmarcos/RecodePro2020/tree/master/projeto_Bootstrap)
     
 <hr>
 <br>
